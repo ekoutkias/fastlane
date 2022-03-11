@@ -178,7 +178,7 @@ module Deliver
             end
           end
 
-          Deliver::Setup.new.generate_metadata_files(app, v, path, options)
+          Deliver::Setup.new.generate_metadata_files(app, "2.13.0", path, options)
         end
       end
 
